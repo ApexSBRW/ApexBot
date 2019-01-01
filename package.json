@@ -1,0 +1,12 @@
+{
+  "name": "ApexBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "mysql": "mysqljs/mysql",
+    "promise-mysql": "^3.3.1"
+  }
+}

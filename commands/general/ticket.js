@@ -45,7 +45,7 @@ module.exports = class GetTicketCommand extends commando.Command {
             ticket = results[0]
         }
 
-        msg.author.sendMessage(`Your ticket for Apex is **${ticket.TICKET}**. Leaving the Discord server will result in your account being suspended!`).then(() => {
+        msg.author.sendMessage(`Your ticket for the server is **${ticket.TICKET}**. Leaving the Discord server will result in your account being suspended!`).then(() => {
             msg.reply('Check your DMs.')
         }).catch(err => {
             msg.reply('I could not send you a DM.')
